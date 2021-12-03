@@ -26,7 +26,7 @@ In `.pre-commit-config.yaml` under the `repos:` section, add the following:
 
 ## Credits
 
-The actual code this hook was written by [@asottile and various contributors to the official pre-commit-hooks repository](https://github.com/pre-commit/pre-commit-hooks/commits/master/pre_commit_hooks/check_json.py). The current author (@maresb) replaced the `json` library with `json5` and published it as a separate hook.
+The actual code this hook was written by [@asottile and various contributors to the official pre-commit-hooks repository](https://github.com/pre-commit/pre-commit-hooks/commits/master/pre_commit_hooks/check_json.py). The current author (Ben Mares) replaced the `json` library with `json5` and published it as a separate hook.
 
 ## License
 
