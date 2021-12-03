@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "check-json5"
+version = "1.0.0"
+description = "pre-commit hook to check json files for syntax parseable as json5 (with comments)"
+authors = ["Ben Mares <services-check-json5@tensorial.com>"]
+license = "MIT"
+packages = [
+    { include = "pre_commit_hooks", from = "pypackages" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.6.1"
+json5 = "^0.9.6"
+
+[tool.poetry.dev-dependencies]
+pre-commit = "^2.15.0"
+
+[tool.poetry.scripts]
+check-json5 = "pre_commit_hooks.check_json5:main"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
