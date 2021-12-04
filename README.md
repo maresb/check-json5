@@ -30,4 +30,4 @@ The actual code this hook was written by [@asottile and various contributors to 
 
 ## License
 
-This hook is published under the [MIT license](LICENSE). The original pre-commit-hooks is also published under the MIT license, [included here](LICENSE.pre-commit-hooks).
+This hook is published under the [MIT license](LICENSE). The original pre-commit-hooks collection (from which this hook is derived) is also published under the MIT license, [included here](LICENSE.pre-commit-hooks).
