@@ -1,0 +1,6 @@
+{
+    multiline: "This is a \
+long string that spans \
+multiple lines",
+}
+
