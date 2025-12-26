@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "check-json5"
-version = "1.0.0"
+version = "1.0.1"
 description = "pre-commit hook to check json files for syntax parseable as json5 (with comments)"
 authors = ["Ben Mares <services-check-json5@tensorial.com>"]
 license = "MIT"
