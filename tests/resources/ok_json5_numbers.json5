@@ -1,0 +1,10 @@
+{
+    hex: 0xFF,
+    infinity: Infinity,
+    neg_infinity: -Infinity,
+    not_a_number: NaN,
+    leading_decimal: .5,
+    trailing_decimal: 5.,
+    positive: +10,
+}
+

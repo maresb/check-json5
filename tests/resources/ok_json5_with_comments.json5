@@ -1,0 +1,8 @@
+{
+    // This is a single-line comment
+    "hello": "world",
+    /* This is a
+       multi-line comment */
+    "foo": "bar"
+}
+
