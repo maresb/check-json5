@@ -3,4 +3,4 @@
     description: checks json files for syntax parsable as json5 (with comments).
     entry: check-json5
     language: python
-    types: [json]
+    types_or: [json, json5]
